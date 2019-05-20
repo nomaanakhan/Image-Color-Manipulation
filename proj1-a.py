@@ -19,8 +19,6 @@ def round(D):
         return D
 
 def convertLuv2BGR(L,u,v):
-    #### Replace the color conversion code here ######
-    # place holder code below should be deleted and replace with correct code
 
     uw = (4*0.95) / (0.95 + 15.0 + (3*1.09))
     vw = 9/(0.95 + 15.0 + (3*1.09))
